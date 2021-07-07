@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="32sp"
 
-    tools:context=".ui.views.ProducerSignUpFragment">
+    tools:context=".ui.view.ProducerSignUpFragment">
 
     <TextView
         android:layout_width="match_parent"

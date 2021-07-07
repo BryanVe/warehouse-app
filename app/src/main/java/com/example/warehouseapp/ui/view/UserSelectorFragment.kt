@@ -1,4 +1,4 @@
-package com.example.warehouseapp.ui.views
+package com.example.warehouseapp.ui.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.warehouseapp.R
 import com.example.warehouseapp.databinding.UserSelectorFragmentBinding
-import com.example.warehouseapp.ui.viewModels.UserSelectorViewModel
+import com.example.warehouseapp.ui.viewModel.UserSelectorViewModel
 
 class UserSelectorFragment : Fragment() {
     private var _binding: UserSelectorFragmentBinding? = null
@@ -27,6 +27,10 @@ class UserSelectorFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProvider(this).get(UserSelectorViewModel::class.java)
+
+        binding.btnStorerSignIn.setOnClickListener {
+            findNavController().navigate(R.id.storerSignInFragment)
+        }
 
         binding.btnProducerSignIn.setOnClickListener {
             findNavController().navigate(R.id.producerSignInFragment)

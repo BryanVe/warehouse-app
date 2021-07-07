@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="32dp"
-    tools:context=".ui.views.AddProductOnWarehouseFragment">
+    tools:context=".ui.view.AddProductOnWarehouseFragment">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/etProductSearch"

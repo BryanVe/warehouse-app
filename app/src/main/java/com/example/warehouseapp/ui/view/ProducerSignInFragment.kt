@@ -1,4 +1,4 @@
-package com.example.warehouseapp.ui.views
+package com.example.warehouseapp.ui.view
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.warehouseapp.R
-import com.example.warehouseapp.ui.viewModels.ProducerSignInViewModel
+import com.example.warehouseapp.ui.viewModel.ProducerSignInViewModel
 
 class ProducerSignInFragment : Fragment() {
 

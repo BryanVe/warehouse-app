@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WarehouseApp">
-        <activity android:name="com.example.warehouseapp.ui.views.MainActivity">
+        <activity android:name="com.example.warehouseapp.ui.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

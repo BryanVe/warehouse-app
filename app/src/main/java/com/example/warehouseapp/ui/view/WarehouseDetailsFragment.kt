@@ -1,4 +1,4 @@
-package com.example.warehouseapp.ui.views
+package com.example.warehouseapp.ui.view
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -7,26 +7,26 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.warehouseapp.R
-import com.example.warehouseapp.ui.viewModels.WarehousesViewModel
+import com.example.warehouseapp.ui.viewModel.WarehouseDetailsViewModel
 
-class WarehousesFragment : Fragment() {
+class WarehouseDetailsFragment : Fragment() {
 
     companion object {
-        fun newInstance() = WarehousesFragment()
+        fun newInstance() = WarehouseDetailsFragment()
     }
 
-    private lateinit var viewModel: WarehousesViewModel
+    private lateinit var viewModel: WarehouseDetailsViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.warehouses_fragment, container, false)
+        return inflater.inflate(R.layout.warehouse_details_fragment, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(WarehousesViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(WarehouseDetailsViewModel::class.java)
         // TODO: Use the ViewModel
     }
 

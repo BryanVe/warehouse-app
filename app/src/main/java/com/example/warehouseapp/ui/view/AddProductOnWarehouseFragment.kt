@@ -1,4 +1,4 @@
-package com.example.warehouseapp.ui.views
+package com.example.warehouseapp.ui.view
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -7,26 +7,26 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.warehouseapp.R
-import com.example.warehouseapp.ui.viewModels.StorerSignInViewModel
+import com.example.warehouseapp.ui.viewModel.AddProductOnWarehouseViewModel
 
-class StorerSignInFragment : Fragment() {
+class AddProductOnWarehouseFragment : Fragment() {
 
     companion object {
-        fun newInstance() = StorerSignInFragment()
+        fun newInstance() = AddProductOnWarehouseFragment()
     }
 
-    private lateinit var viewModel: StorerSignInViewModel
+    private lateinit var viewModel: AddProductOnWarehouseViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.storer_sign_in_fragment, container, false)
+        return inflater.inflate(R.layout.add_product_on_warehouse_fragment, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(StorerSignInViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(AddProductOnWarehouseViewModel::class.java)
         // TODO: Use the ViewModel
     }
 

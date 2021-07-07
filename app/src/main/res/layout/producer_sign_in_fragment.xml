@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="32sp"
 
-    tools:context=".ui.views.ProducerSignInFragment">
+    tools:context=".ui.view.ProducerSignInFragment">
 
     <TextView
         android:layout_width="match_parent"

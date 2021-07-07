@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/userSelectorFragment"
-        android:name="com.example.warehouseapp.ui.views.UserSelectorFragment"
+        android:name="com.example.warehouseapp.ui.view.UserSelectorFragment"
         tools:layout="@layout/user_selector_fragment" >
         <action
             android:id="@+id/action_userSelectorFragment_to_producerSignInFragment"
@@ -21,19 +21,20 @@
     </fragment>
     <fragment
         android:id="@+id/producerSignInFragment"
-        android:name="com.example.warehouseapp.ui.views.ProducerSignInFragment"
+        android:name="com.example.warehouseapp.ui.view.ProducerSignInFragment"
         tools:layout="@layout/producer_sign_in_fragment" />
     <fragment
-        android:id="@+id/warehousesFragment2"
-        android:name="com.example.warehouseapp.ui.views.WarehousesFragment"
-        tools:layout="@layout/warehouses_fragment" >
+        android:id="@+id/warehousesFragment"
+        android:name="com.example.warehouseapp.ui.view.WarehousesFragment"
+        tools:layout="@layout/warehouses_fragment"
+        android:label="Warehouses" >
         <action
             android:id="@+id/action_warehousesFragment2_to_warehouseDetailsFragment"
             app:destination="@id/warehouseDetailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/producerSignUpFragment"
-        android:name="com.example.warehouseapp.ui.views.ProducerSignUpFragment"
+        android:name="com.example.warehouseapp.ui.view.ProducerSignUpFragment"
         tools:layout="@layout/producer_sign_up_fragment" >
         <action
             android:id="@+id/action_producerSignUpFragment_to_producerSignInFragment"
@@ -41,17 +42,17 @@
     </fragment>
     <fragment
         android:id="@+id/storerSignInFragment"
-        android:name="com.example.warehouseapp.ui.views.StorerSignInFragment"
+        android:name="com.example.warehouseapp.ui.view.StorerSignInFragment"
         android:label="storer_sign_in_fragment"
         tools:layout="@layout/storer_sign_in_fragment" >
         <action
-            android:id="@+id/action_storerSignInFragment_to_warehousesFragment2"
-            app:destination="@id/warehousesFragment2" />
+            android:id="@+id/action_storerSignInFragment_to_warehousesFragment"
+            app:destination="@id/warehousesFragment" />
     </fragment>
     <fragment
         android:id="@+id/warehouseDetailsFragment"
-        android:name="com.example.warehouseapp.ui.views.WarehouseDetailsFragment"
-        android:label="warehouse_details_fragment"
+        android:name="com.example.warehouseapp.ui.view.WarehouseDetailsFragment"
+        android:label="Details"
         tools:layout="@layout/warehouse_details_fragment" >
         <action
             android:id="@+id/action_warehouseDetailsFragment_to_addProductOnWarehouseFragment"
@@ -59,7 +60,7 @@
     </fragment>
     <fragment
         android:id="@+id/addProductOnWarehouseFragment"
-        android:name="com.example.warehouseapp.ui.views.AddProductOnWarehouseFragment"
-        android:label="add_product_on_warehouse_fragment"
+        android:name="com.example.warehouseapp.ui.view.AddProductOnWarehouseFragment"
+        android:label="Add Product"
         tools:layout="@layout/add_product_on_warehouse_fragment" />
 </navigation>

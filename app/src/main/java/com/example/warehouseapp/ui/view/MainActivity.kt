@@ -1,4 +1,4 @@
-package com.example.warehouseapp.ui.views
+package com.example.warehouseapp.ui.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

@@ -1,4 +1,4 @@
-package com.example.warehouseapp.ui.views
+package com.example.warehouseapp.ui.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.warehouseapp.R
 import com.example.warehouseapp.databinding.ProducerSignUpFragmentBinding
-import com.example.warehouseapp.ui.viewModels.ProducerSignUpViewModel
+import com.example.warehouseapp.ui.viewModel.ProducerSignUpViewModel
 
 class ProducerSignUpFragment : Fragment() {
     private var _binding: ProducerSignUpFragmentBinding? = null

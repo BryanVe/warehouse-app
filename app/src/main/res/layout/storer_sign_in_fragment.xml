@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="32sp"
 
-    tools:context=".ui.views.StorerSignInFragment">
+    tools:context=".ui.view.StorerSignInFragment">
 
     <TextView
         android:layout_width="match_parent"
@@ -51,6 +51,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
