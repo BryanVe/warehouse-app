@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WarehouseApp</string>
+    <string name="authenticate_as">Authenticate as</string>
+    <string name="storer">Storer</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">or</string>
+    <string name="producer">Producer</string>
+    <string name="sign_up">Sign Up</string>
+</resources>

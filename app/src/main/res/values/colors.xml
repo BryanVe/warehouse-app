@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color">#FFAA8CFF</color>
+    <color name="main_variant_color">#AA8CFF</color>
+    <color name="secondary_color">#FFFF6264</color>
+    <color name="secondary_variant_color">#FF6264</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="background">#2A2A2A</color>
+</resources>

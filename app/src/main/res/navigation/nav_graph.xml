@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/userSelectorFragment">
+
+    <fragment
+        android:id="@+id/userSelectorFragment"
+        android:name="com.example.warehouseapp.views.UserSelectorFragment"
+        android:label="user_selector_fragment"
+        tools:layout="@layout/user_selector_fragment" />
+</navigation>
