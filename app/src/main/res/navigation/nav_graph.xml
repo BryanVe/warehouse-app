@@ -7,7 +7,59 @@
 
     <fragment
         android:id="@+id/userSelectorFragment"
-        android:name="com.example.warehouseapp.views.UserSelectorFragment"
-        android:label="user_selector_fragment"
-        tools:layout="@layout/user_selector_fragment" />
+        android:name="com.example.warehouseapp.ui.views.UserSelectorFragment"
+        tools:layout="@layout/user_selector_fragment" >
+        <action
+            android:id="@+id/action_userSelectorFragment_to_producerSignInFragment"
+            app:destination="@id/producerSignInFragment" />
+        <action
+            android:id="@+id/action_userSelectorFragment_to_producerSignUpFragment"
+            app:destination="@id/producerSignUpFragment" />
+        <action
+            android:id="@+id/action_userSelectorFragment_to_storerSignInFragment"
+            app:destination="@id/storerSignInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/producerSignInFragment"
+        android:name="com.example.warehouseapp.ui.views.ProducerSignInFragment"
+        tools:layout="@layout/producer_sign_in_fragment" />
+    <fragment
+        android:id="@+id/warehousesFragment2"
+        android:name="com.example.warehouseapp.ui.views.WarehousesFragment"
+        tools:layout="@layout/warehouses_fragment" >
+        <action
+            android:id="@+id/action_warehousesFragment2_to_warehouseDetailsFragment"
+            app:destination="@id/warehouseDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/producerSignUpFragment"
+        android:name="com.example.warehouseapp.ui.views.ProducerSignUpFragment"
+        tools:layout="@layout/producer_sign_up_fragment" >
+        <action
+            android:id="@+id/action_producerSignUpFragment_to_producerSignInFragment"
+            app:destination="@id/producerSignInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/storerSignInFragment"
+        android:name="com.example.warehouseapp.ui.views.StorerSignInFragment"
+        android:label="storer_sign_in_fragment"
+        tools:layout="@layout/storer_sign_in_fragment" >
+        <action
+            android:id="@+id/action_storerSignInFragment_to_warehousesFragment2"
+            app:destination="@id/warehousesFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/warehouseDetailsFragment"
+        android:name="com.example.warehouseapp.ui.views.WarehouseDetailsFragment"
+        android:label="warehouse_details_fragment"
+        tools:layout="@layout/warehouse_details_fragment" >
+        <action
+            android:id="@+id/action_warehouseDetailsFragment_to_addProductOnWarehouseFragment"
+            app:destination="@id/addProductOnWarehouseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addProductOnWarehouseFragment"
+        android:name="com.example.warehouseapp.ui.views.AddProductOnWarehouseFragment"
+        android:label="add_product_on_warehouse_fragment"
+        tools:layout="@layout/add_product_on_warehouse_fragment" />
 </navigation>

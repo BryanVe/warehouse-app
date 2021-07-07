@@ -5,6 +5,8 @@ buildscript {
         nav_version = "2.3.5"
         lifecycle_version = "2.4.0-alpha02"
         arch_version = "2.1.0"
+        retrofit_version = "2.9.0"
+        coroutines_version = "1.5.0"
     }
     repositories {
         google()

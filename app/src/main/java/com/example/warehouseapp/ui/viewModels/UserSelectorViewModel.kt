@@ -1,4 +1,4 @@
-package com.example.warehouseapp.viewModels
+package com.example.warehouseapp.ui.viewModels
 
 import androidx.lifecycle.ViewModel
 

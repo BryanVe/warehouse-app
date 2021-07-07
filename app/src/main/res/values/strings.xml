@@ -6,4 +6,19 @@
     <string name="or">or</string>
     <string name="producer">Producer</string>
     <string name="sign_up">Sign Up</string>
+    <string name="warehouse_card_example_text">Example text</string>
+    <string name="create_warehouse_btn_txt">Create Warehouse</string>
+    <string name="add_product_btn_txt">Add Product</string>
+    <string name="but_btn_txt">Buy</string>
+    <string name="producer_sign_in_msg">You will sign in as producer</string>
+    <string name="producer_sign_up_msg">You will sign up as producer</string>
+    <string name="storer_sign_in_msg">You will sign in as storer</string>
+    <string name="email">Email</string>
+    <string name="names">Names</string>
+    <string name="lastnames">Lastnames</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="dropdown_btn">dropdown_btn</string>
+    <string name="example_stock">7 / 12</string>
+    <string name="number_stock">0</string>
 </resources>

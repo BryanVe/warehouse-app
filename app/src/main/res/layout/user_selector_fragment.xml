@@ -6,13 +6,13 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="32dp"
-    tools:context=".views.UserSelectorFragment">
+    tools:context=".ui.views.UserSelectorFragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/authenticate_as"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="24sp" />
 
 
@@ -23,10 +23,11 @@
         android:letterSpacing="0.1"
         android:text="@string/storer"
         android:textAllCaps="true"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textStyle="bold" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStorerSignIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -53,7 +54,7 @@
             android:letterSpacing="0.1"
             android:text="@string/or"
             android:textAllCaps="true"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="12sp" />
 
         <View
@@ -71,16 +72,18 @@
         android:letterSpacing="0.1"
         android:text="@string/producer"
         android:textAllCaps="true"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textStyle="bold" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnProducerSignIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/sign_in" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnProducerSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"

@@ -1,4 +1,4 @@
-package com.example.warehouseapp.models
+package com.example.warehouseapp.data.model
 
 data class Warehouse(
     val id: String,

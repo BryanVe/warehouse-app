@@ -1,7 +1,7 @@
-package com.example.warehouseapp.views
+package com.example.warehouseapp.ui.views
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.warehouseapp.R
 
 class MainActivity : AppCompatActivity() {
